@@ -12,6 +12,12 @@ header{
     margin-left: auto;
     margin-right: auto; 
 }
+section {
+    border: 1px solid #606060;   
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto; 
+}
 p {
     font-size: 20pt;
     color: blueviolet;
