@@ -4,7 +4,20 @@
         src: url();
 }
 body {
-    background-color: antiquewhite;
+    color: aliceblue;
+}
+div#divisaoprincipal {
+    
+        margin: -20px;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        align-content: center;
+       /* width: 1284px;
+        height: 670px; */
+        overflow-block: hidden;
+    
 }
 header{
     border: 1px solid #606060;   
