@@ -9,7 +9,7 @@ body {
     margin:0px;
 }
 div#divisaoprincipal {
-     background-color: rgba(1, 51, 71, 0.96);
+     background-color: rgba(148, 181, 196, 0.96);
     
      text-align: center;    
     position: absolute;
@@ -33,15 +33,16 @@ section {
 }
 p {
     font-size: 13pt;
-    color:rgb(75, 243, 235);
+    color:rgb(29, 32, 30);
     margin: 100px;
     font-family: Agency FB;
     text-align: left;
+    font-size: 15pt;
 }
 h1 {
     font-size: 30pt;
     font-family: Montserrat, sans-serif;
-    color: rgb(75, 243, 235);
+    color: rgb(25, 27, 25);
 }
 li {
     display: inline-block;
@@ -53,6 +54,7 @@ li {
          text-shadow: #606060;
          font-family: sans-serif;
          border-radius: 5px;
+         tex;
 }
 li:hover {
     background-color: #1774d8;
