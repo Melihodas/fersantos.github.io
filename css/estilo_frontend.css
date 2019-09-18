@@ -45,8 +45,8 @@ h1 {
 }
 li {
     display: inline-block;
-         background-color: #2471c4;
-         padding: 7px;
+         background-color: #184d86;
+         padding: 10px;
          margin-top: 10px;
          transition: background-color 1s;
          font-size: 20px;
@@ -55,10 +55,10 @@ li {
          border-radius: 5px;
 }
 li:hover {
-    background-color: #6da8ec;
+    background-color: #1774d8;
      }
      a {
-        color: #8d8989;
+        color: aliceblue;
         text-decoration: none;
      }
      a:hover {
