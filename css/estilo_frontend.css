@@ -17,6 +17,7 @@ div#divisaoprincipal {
     left: 300px;
     height: 400px;
     width: 800px;
+    border-radius: 10px;
 }
 header{
     border: 1px solid #606060;   
@@ -42,3 +43,24 @@ h1 {
     font-family: Montserrat, sans-serif;
     color: rgb(75, 243, 235);
 }
+li {
+    display: inline-block;
+         background-color: #2471c4;
+         padding: 7px;
+         margin-top: 10px;
+         transition: background-color 1s;
+         font-size: 20px;
+         text-shadow: #606060;
+         font-family: sans-serif;
+         border-radius: 5px;
+}
+li:hover {
+    background-color: #6da8ec;
+     }
+     a {
+        color: #8d8989;
+        text-decoration: none;
+     }
+     a:hover {
+        color: aliceblue;
+}        
