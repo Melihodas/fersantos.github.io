@@ -19,7 +19,7 @@ div#divisaoprincipal {
     border-radius: 10px;
     border: 0px solid #606060;
 }
-div#fersantos h1{
+div#fersantos h1 {
     font-family: Caveat;
 }
 div#enuciado{
@@ -29,6 +29,7 @@ div#enuciado{
     height: 400px;
     width: 800px;
     border: 0px solid #606060;
+    font-family: Lobster;
 }
 div#entrar{
     text-align: right;
