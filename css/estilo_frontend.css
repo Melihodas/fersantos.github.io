@@ -19,6 +19,9 @@ div#divisaoprincipal {
     border-radius: 10px;
     border: 0px solid #606060;
 }
+div#fersantos h1{
+    font-family: Caveat;
+}
 div#enuciado{
  position: absolute;
  top: 10px;
@@ -28,12 +31,13 @@ div#enuciado{
     border: 0px solid #606060;
 }
 div#entrar{
+    text-align: right;
     position: absolute;
-    top: 150px;
+    top: -30px;
        left: 0px;
        height: 0px;
-       width: 800px;
-      border: 0px solid #606060;
+       width: 1120px;
+      border: 10px solid #606060;
 }
 div#instagram{
     text-align: right;
@@ -61,7 +65,7 @@ p {
     font-size: 13pt;
     color:rgb(29, 32, 30);
     margin: 100px;
-    font-family: Agency FB;
+    font-family: Lobster;
     text-align: left;
     font-size: 15pt;
 }
