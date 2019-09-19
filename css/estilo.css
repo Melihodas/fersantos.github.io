@@ -4,7 +4,7 @@
         src: url('../_fonts/Lobster_1.3.otf');
 }
 body {
-        background-color: #032c58;
+        background-color: #1b2e42;
  font-family: Agency FB, sans-serif;
 }
 div#interface {
@@ -14,6 +14,12 @@ div#interface {
         box-shadow: 0px 0px 10px rgb(0, 0, 0, .5);
         padding: 10px 10px 10px 10px;
 
+}
+div#filmes{
+        border: 5px solid #14467c;
+        width: 150px;
+        height: 200px; 
+        border-radius: 10px;
 }
 a {
         color: #606060;
@@ -40,12 +46,12 @@ left: 900px;
 top: 70px;
 }
 header#cabecalho {
-        border-bottom: 1px #606060 solid;
+        border-bottom: 0px #606060 solid;
         height: 150px;
         background: url("../_imagens/fundo-digital.jpg") no-repeat;
 }
 header#cabecalho h1 {
-      font-family:'FontLogo';
+      font-family:'Orbitron';
       font-size: 30pt;
       color: #e6dddd;
       text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -102,20 +108,20 @@ font-language-override: inherit;
  nav#menu li {
         
          display: inline-block;
-         background-color: #032c58;
+         background-color: #1b2e42;
          padding: 10px;
          margin-top: 30px;
          transition: background-color 1s;
          font-size: 15px;
  }
  nav#menu li:hover {
-background-color: #051c81;
+background-color: #1b2e42;
  }
  nav#menu h1 {
         display: none;
  }
  nav#menu a {
-         color: #8d8989;
+         color: #a8a4a4;
          text-decoration: none;
          }
  nav#menu a:hover {
@@ -125,7 +131,7 @@ background-color: #051c81;
          display: block;
          width: 550px;
          float: left;
-         border-right: 1px solid #606060;
+         border-right: 0px solid #606060;
          padding-right: 8px;
  }
  article#artigo h2 {
@@ -160,13 +166,13 @@ color: #606060;
 
  }
  table#tabela {
-         border: 1px solid #606060;   
+         border: 0px solid #606060;   
          border-spacing: 0px;
          margin-left: auto;
          margin-right: auto;     
  }
  table#tabela td {
-         border: 1px solid #606060;
+         border: 0px solid #606060;
          padding: 10px ;
          text-align: center;
          vertical-align: top;
@@ -217,7 +223,7 @@ padding: 13px;
  }
  footer#rodape {
          clear: both;
-         border-top: 1px solid #606060; 
+         border: 0px solid #606060; 
  }
  footer#rodape p {
          text-align: center;
