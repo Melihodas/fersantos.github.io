@@ -8,7 +8,7 @@ body {
  font-family: Agency FB, sans-serif;
 }
 div#interface {
-        width: 100%;
+        width: 99%;
         
         margin: -20px auto 0px auto;
         box-shadow: 0px 0px 10px rgb(0, 0, 0, .5);
@@ -30,15 +30,15 @@ a:hover {
 text-decoration: underline;
 }
 p { text-align: justify; 
-    text-indent: 50px;
-    font-family: agency FB;
-    text-decoration-color: #051c81;
-    
-}
+        text-indent: 200px;
+    font-family: Aldrich;
+    text-decoration-color: #1839ca;
+    font-size: 15pt;
+    }
 h1 {
        font-family: Arial, Helvetica, sans-serif;
-        color:red;
-text-shadow:2px 2px 2px black;
+        color:rgb(245, 24, 24);
+text-shadow:2px 2px 2px rgb(19, 54, 70);
 }
 header#cabecalho img#icone {
 position: absolute;
@@ -131,16 +131,10 @@ background-color: #1b2e42;
          display: block;
          width: 550px;
          float: left;
-         border-right: 0px solid #606060;
+         border-right: 0px solid #17df59;
          padding-right: 8px;
  }
- article#artigo h2 {
-font-size: 12pt;
-color: #606060;
-background-color: #dddddd;
-padding: 5px 0px 5px 10px;
-margin: 10px 0px 10px 0px;
- }
+
  header#cabecalho_de_artigo h1 {
 font-family: 'fontelogo' , sans-serif;
 font-size: 20pt;
@@ -153,11 +147,11 @@ margin-top: 0px;
  }
 
  header#cabecalho_de_artigo h2 {
-font-size: 13pt;
-color: #08425e9c;
-background-color: aqua;
+font-size: 10pt;
+color: #273f4b9c;
+background-color: rgb(55, 110, 161);
 margin: 0px;
-
+font-family: Aldrich;
  }
 
  header#cabecalho_de_artigo h3 {
@@ -227,6 +221,8 @@ padding: 13px;
  }
  footer#rodape p {
          text-align: center;
+         text-indent: 30px;
+         font-size: 10pt;
  }
  div#downloads {
          border:0px solid #606060;
