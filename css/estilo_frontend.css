@@ -5,6 +5,8 @@
 }
 body {
     background-image: url('../img/apple.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: rgb(140, 193, 240);
     margin:0px;
 }
