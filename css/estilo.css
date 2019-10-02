@@ -4,12 +4,15 @@
         src: url('../_fonts/Lobster_1.3.otf');
 }
 body {
-        background-color: #1b2e42;
+        background-image: url('../img/space-nebula-constellation.jpg');
+        background-repeat: no-repeat ;
+        background-size: cover;
  font-family: Agency FB, sans-serif;
 }
 div#interface {
         width: 99%;
-        
+        border: #000000 solid 0px;
+        background-color: rgba(0, 0, 0, 0.30);
         margin: -20px auto 0px auto;
         box-shadow: 0px 0px 10px rgb(0, 0, 0, .5);
         padding: 10px 10px 10px 10px;
@@ -108,20 +111,20 @@ font-language-override: inherit;
  nav#menu li {
         
          display: inline-block;
-         background-color: #1b2e42;
+         background-color:none;
          padding: 10px;
          margin-top: 30px;
          transition: background-color 1s;
          font-size: 15px;
  }
  nav#menu li:hover {
-background-color: #1b2e42;
+background-color: none;
  }
  nav#menu h1 {
         display: none;
  }
  nav#menu a {
-         color: #a8a4a4;
+         color: #cc4c02;
          text-decoration: none;
          }
  nav#menu a:hover {
