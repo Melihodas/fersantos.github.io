@@ -4,14 +4,14 @@
         src: url();
 }
 body {
-    background-image: url('../img/apple.jpg');
+    background-image: url('../img/te2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(140, 193, 240);
+    color: rgb(140, 193, 240,);
     margin:0px;
 }
 div#divisaoprincipal {
-     background-color: rgba(148, 181, 196, 0.96);
+     background-color: rgba(148, 181, 196, 0.90);
      text-align: center;    
     position: absolute;
     top: 115px;

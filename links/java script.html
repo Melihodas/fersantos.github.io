@@ -11,22 +11,7 @@
 </head>
 
 <bory>
-        <canvas id="screen" width="500" height="500"></canvas>
-        <script>
-        const screen = document.getElementById(screen)
-        const.context = screen.getContext('2d')
-        
-        const color = 'red'
-        const positionX = 0
-        const positionY = 0
-        const width = 250
-        const height = 250
-        
-        context.fillstyle = color
-        context.fillRect(positionX, positionY, width, height)
-        
-        </script>
-    <div id="interface">
+        <div id="interface">
         <header id="cabecalho">
             <hgrup>
                 <img src="../img/js.webp" />
@@ -38,7 +23,7 @@
                 <ul type="disc">
                     <li><a href="../links/paginicial.html">Home</a></li>
                     <li><a href="../links/java script.html">Java Script</a></li>
-                    <!--<li><a href="/meu site/links/fotos.html">Fotos</a></li>-->
+                    <li><a href="../links/flexivelfit.html">Flexiel Fit</a></li>
                     <li><a href="../links/multimidia.html">Multimidia</a></li>
                     <!--<li><a href="/meu site/links/contatos.html">Fale conosco</a></li>-->
                 </ul>
@@ -79,7 +64,21 @@
         }            
             </script>
             </div>
-        
+            <canvas id="screen" width="500" height="500"></canvas>
+            <script>
+            const screen = document.getElementById('screen')
+            const context = screen.getContext('2d')
+            
+            const color = 'red'
+            const positionX = 0
+            const positionY = 0
+            const width = 250
+            const height = 250
+            
+            context.fillstyle = color
+            context.fillRect(positionX, positionY, width, height)
+            
+            </script>
         
     
             <footer id="rodape">
